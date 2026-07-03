@@ -93,3 +93,12 @@ La información puede explorarse dinámicamente mediante segmentadores por categ
 ### Tabla y Datos
 
 ![Table View](images/table_view.png)
+
+---
+
+## Archivos de proyecto
+
+- `dashboard/Pizza_Sales_Dashboard.pbix` → Desarrollo completo del proyecto en Power BI.
+- `data/pizza_sales_dataset.xlsx` → Conjunto de datos original.
+- `images/` → Capturas del dashboard.
+- `README.md` → Documentación del proyecto.

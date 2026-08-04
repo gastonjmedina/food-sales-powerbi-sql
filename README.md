@@ -47,7 +47,6 @@ Cada consulta se encuentra documentada junto con su respectivo resultado, permit
 
 ![Sales Queries 1](images/sales_queries(1).png)
 
-![Sales Queries 2](images/sales_queries(2).png)
 
 ---
 
@@ -91,5 +90,5 @@ La información puede explorarse dinámicamente mediante segmentadores por categ
 - `dashboard/Pizza_Sales_Dashboard.pbix` → Desarrollo completo del proyecto en Power BI.
 - `data/pizza_sales.csv` → Conjunto de datos original.
 - `pizza_sales_queries.rtf` → Archivo original con las consultas SQL y capturas de sus resultados.
-- `images/` → Capturas del dashboard.
+- `images/` → Capturas del proyecto.
 - `README.md` → Documentación del proyecto.

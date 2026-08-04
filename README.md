@@ -1,8 +1,8 @@
-# Proyecto Power BI - Análisis de Ventas
+# Proyecto de Análisis de Ventas | Power BI + SQL Server
 
 Repositorio orientado al desarrollo de un dashboard interactivo en Power BI para el análisis de un conjunto de datos de ventas.
 
-El proyecto incluye las etapas de limpieza, transformación, modelado y visualización de datos mediante Power Query y DAX, con el objetivo de responder a distintos requerimientos de negocio a través de indicadores clave (KPIs) y visualizaciones interactivas.
+El proyecto incluye las etapas de limpieza, transformación, modelado y visualización de datos mediante Power Query y DAX, con el objetivo de responder a distintos requerimientos de negocio a través de indicadores clave (KPIs) y visualizaciones interactivas. Además, se desarrollaron consultas en SQL Server para validar los indicadores y resultados obtenidos en el dashboard.
 
 ---
 
@@ -21,6 +21,7 @@ El proyecto incluye las etapas de limpieza, transformación, modelado y visualiz
 - Power BI Desktop
 - Power Query
 - DAX
+- SQL Server
 
 ---
 
@@ -31,9 +32,22 @@ Durante el proyecto se realizaron las siguientes etapas:
 - Limpieza y transformación de datos mediante Power Query
 - Creación de columnas auxiliares para el análisis temporal
 - Desarrollo de medidas DAX para el cálculo de KPIs
-- Diseño e implementación de un dashboard interactivo
 - Desarrollo de visualizaciones para el análisis de tendencias, categorías y productos
 - Implementación de segmentadores, filtros y navegación entre páginas
+
+---
+
+## Validación mediante SQL
+
+Como complemento al desarrollo del dashboard, se implementaron consultas en SQL Server para validar los principales indicadores y métricas del proyecto.
+
+Cada consulta se encuentra documentada junto con su respectivo resultado, permitiendo verificar la consistencia entre los valores obtenidos mediante SQL y las medidas DAX utilizadas en Power BI.
+
+### Vista previa
+
+![Sales Queries 1](images/sales_queries(1).png)
+
+![Sales Queries 2](images/sales_queries(2).png)
 
 ---
 
@@ -41,11 +55,9 @@ Durante el proyecto se realizaron las siguientes etapas:
 
 El dashboard incorpora indicadores clave para el seguimiento del desempeño de las ventas, entre ellos:
 
-- Total Revenue
-- Average Order Value
-- Total Pizzas Sold
-- Total Orders
-- Average Pizzas per Order
+- Ingresos totales (Total Revenue)
+- Valor promedio por pedido (Average Order Value)
+- Total de pedidos (Total Orders)
 
 ---
 
@@ -53,10 +65,8 @@ El dashboard incorpora indicadores clave para el seguimiento del desempeño de l
 
 El dashboard incluye distintas visualizaciones orientadas al análisis de la información, entre ellas:
 
-- Tendencia diaria de pedidos
 - Tendencia mensual de pedidos
 - Porcentaje de ventas por categoría
-- Porcentaje de ventas por tamaño
 - Top 5 productos por ingresos, cantidad vendida y pedidos
 
 ---
@@ -100,5 +110,6 @@ La información puede explorarse dinámicamente mediante segmentadores por categ
 
 - `dashboard/Pizza_Sales_Dashboard.pbix` → Desarrollo completo del proyecto en Power BI.
 - `data/pizza_sales.csv` → Conjunto de datos original.
+- `pizza_sales_queries.rtf` → Archivo original con las consultas SQL y capturas de sus resultados.
 - `images/` → Capturas del dashboard.
 - `README.md` → Documentación del proyecto.

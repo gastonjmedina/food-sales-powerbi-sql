@@ -51,26 +51,6 @@ Cada consulta se encuentra documentada junto con su respectivo resultado, permit
 
 ---
 
-## KPIs implementados
-
-El dashboard incorpora indicadores clave para el seguimiento del desempeño de las ventas, entre ellos:
-
-- Ingresos totales (Total Revenue)
-- Valor promedio por pedido (Average Order Value)
-- Total de pedidos (Total Orders)
-
----
-
-## Visualizaciones implementadas
-
-El dashboard incluye distintas visualizaciones orientadas al análisis de la información, entre ellas:
-
-- Tendencia mensual de pedidos
-- Porcentaje de ventas por categoría
-- Top 5 productos por ingresos, cantidad vendida y pedidos
-
----
-
 ## Requerimientos del proyecto
 
 
